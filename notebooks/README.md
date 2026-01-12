@@ -2,4 +2,5 @@
 
 Esta pasta contém os notebooks do projeto **Quantum Finance**.
 
-- Notebook principal: `Quantum_finance_ml.ipynb` (EDA + modelagem + resultados)
+- Notebook principal: [`Trabalho_de_MLearning.ipynb`](Trabalho_de_MLearning.ipynb) (EDA + modelagem + resultados)
+
