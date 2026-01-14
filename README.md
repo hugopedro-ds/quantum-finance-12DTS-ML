@@ -11,7 +11,8 @@ Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset 
 📊 Dataset
 - Fonte: Credit Score Classification (Kaggle)
 - O notebook faz download automaticamente via `kagglehub`.
-- ![Dataset preview](assets/03_dataset_preview_head_1.png)
+
+![Dataset preview](assets/03_dataset_preview_head_1.png)
 
 
 ## 🔎 O que foi feito no notebook:
