@@ -2,7 +2,12 @@
 Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset **Credit Score Classification (Kaggle)** para prever a classe de risco de crédito (**Good / Standard / Poor**) e traduzir resultados em **decisão de negócio**.
 
 📁 Estrutura do projeto
-```.
+```├── assets/
+│   └── img/
+│       ├── 03_dataset_preview_head_1.png
+│       ├── 08_model_comparison_table.png
+│       ├── 09_feature_importance_top15_bar.png
+│       └── ...
 ├── notebooks/
 │   └── Trabalho_de_MLearning.ipynb
 └── README.md
@@ -75,6 +80,17 @@ Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset 
 |---|---:|---:|
 | HistGradientBoosting (HistGB) | 0.705 | 0.685 |
 
+![Model comparison](assets/08_model_comparison_table.png)
+
+![HistGB report](assets/07_model_histgb_report.png)
+
+![LogReg report](assets/04_model_logreg_report.png)
+
+![DecisionTree report](assets/05_model_decisiontree_report.png)
+
+![RandomForest report](assets/06_model_randomforest_report.png)
+
+
 **Interpretação (drivers principais de risco):**
 - `Credit_Mix`
 - `Outstanding_Debt`
@@ -83,6 +99,10 @@ Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset 
 - `Changed_Credit_Limit`
 - `Payment_of_Min_Amount`
 - `Credit_History_Age_Months`
+
+![Permutation importance](assets/09_feature_importance_top15_bar.png)
+
+![Feature importance table](assets/10_feature_importance_table.png)
 
 ---
 
@@ -113,11 +133,16 @@ Padrões que tendem a elevar risco:
 ✅ **Entregável 3 — Avaliação e Explicabilidade**
 - Métricas padronizadas
 - Matriz de confusão e report
+
+![Rules confusion matrix](assets/17_rules_confusion_matrix.png)
+  
 - Permutation Importance + gráfico Top 15
 
 ✅ **Entregável 4 — Segunda Abordagem**
 - Sistema Especialista (regras) com razões
 - Comparação com ML
+
+![ML vs Rules](assets/18_ml_vs_rules_metrics_comparison.png)
 
 ---
 
@@ -136,7 +161,10 @@ Padrões que tendem a elevar risco:
 - `Probabilidades:` Good 0.12 | Standard 0.71 | Poor 0.17  
 - `Regras:` Standard (5 pontos)  
 - `Reasons:` Credit_Mix=Bad (+3) | Delay>15 (+2)  
+
 ✅ **Ação:** aprovar com limite menor + validações adicionais
+
+![Case study](assets/19_case_study_10_examples_with_reasons.png)
 
 ---
 
