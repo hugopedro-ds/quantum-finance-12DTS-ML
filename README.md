@@ -27,7 +27,7 @@ Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset 
 
 ---
 
-## 🔎 O que foi feito no notebook:
+## 🔎 O que foi feito no notebook
 
 ### 1) Importação e leitura da base (Kaggle)
 - Download via `kagglehub`
@@ -74,7 +74,7 @@ Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset 
 
 ---
 
-## 🚀 Abrir no Colab o Notebook principal:
+## 🚀 Abrir no Colab o Notebook principal
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dbZLeA2FUk-m8vub7CACAM08gGH4hQ1G?usp=sharing)
 
@@ -117,7 +117,7 @@ Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset 
 ---
 
 ## 💡 Insights em Visão de Negócio
-Padrões que tendem a elevar risco:
+### 📉 Padrões que tendem a elevar risco
 - **Pior mix de crédito** (indicador de perfil menos saudável)
 - **Maior endividamento** e **juros altos**
 - **Atrasos** e comportamento de pagamento mínimo
@@ -156,7 +156,7 @@ Padrões que tendem a elevar risco:
 
 ---
 
-## 🔧 Funcionalidades:
+## 🔧 Funcionalidades
 - Treina e avalia modelos de classificação de risco
 - Interpreta variáveis mais relevantes (explicabilidade)
 - Executa sistema explicável por regras
@@ -178,7 +178,7 @@ Padrões que tendem a elevar risco:
 
 ---
 
-## 🔐 Segurança e Privacidade (Boas Práticas)
+## 🔐 Segurança e Privacidade
 - Evitamos uso de identificadores diretos (`SSN`, `Name`, etc.)
 - Split por cliente para simular cenário real
 - Abordagem explicável (regras) para auditoria e governança
@@ -208,4 +208,4 @@ Este projeto é uma prova de conceito desenvolvida para fins acadêmicos.
 ---
 
 ## 👥 Autores
-Projeto desenvolvido para o Case Study de Machine Learning (FIAP)
+Projeto desenvolvido para o Case Study de Machine Learning (FIAP).
