@@ -1,7 +1,11 @@
-# Quantum Finance — Machine Learning (FIAP)
+# Quantum Finance — credit-score-classification-Machine Learning (FIAP)
+
+# 📋 Visão Geral
 Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset **Credit Score Classification (Kaggle)** para prever a classe de risco de crédito (**Good / Standard / Poor**) e traduzir resultados em **decisão de negócio**.
 
-📁 Estrutura do projeto
+---
+
+## 📁 Estrutura do projeto
 ```├── assets/
 │   └── img/
 │       ├── 03_dataset_preview_head_1.png
@@ -13,12 +17,15 @@ Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset 
 └── README.md
 ```
 
-📊 Dataset
+---
+
+## 📊 Dataset
 - Fonte: Credit Score Classification (Kaggle)
 - O notebook faz download automaticamente via `kagglehub`.
 
 ![Dataset preview](assets/03_dataset_preview_head_1.png)
 
+---
 
 ## 🔎 O que foi feito no notebook:
 
@@ -65,10 +72,13 @@ Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset 
 - Motivos das regras (reasons)
 - Ação recomendada (aprovar / ajustar / revisar)
 
+---
+
 ## 🚀 Abrir no Colab o Notebook principal:
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dbZLeA2FUk-m8vub7CACAM08gGH4hQ1G?usp=sharing)
 
+---
 
 ## 🏆 Resultados (Resumo Executivo)
 **Melhor modelo (supervisionado):** `HistGradientBoosting (HistGB)`  
@@ -175,7 +185,7 @@ Padrões que tendem a elevar risco:
 
 ---
 
-## 🚧 Próximos Passos (Evolução realista)
+## 🛣️ Próximos Passos (Evolução realista)
 - **Tuning** (GridSearch/RandomSearch) no HistGB
 - **Calibração de probabilidades** (Platt / isotônica) para decisões de limite/taxa
 - **Explainability avançada:** SHAP (em subset) + relatórios
@@ -194,6 +204,8 @@ Padrões que tendem a elevar risco:
 ---
 ## 📄 Licença
 Este projeto é uma prova de conceito desenvolvida para fins acadêmicos.
+
+---
 
 ## 👥 Autores
 Projeto desenvolvido para o Case Study de Machine Learning (FIAP)
