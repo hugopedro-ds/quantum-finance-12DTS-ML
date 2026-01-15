@@ -19,6 +19,17 @@ Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset 
 
 ---
 
+# 🧠 Técnica de Abordagens
+
+---
+
+# 🚀 Como Usar
+- Instalação (requirements.txt)
+- Como rodar (Colab e/ou local)
+- Onde saem os outputs (img/outputs)
+
+---
+
 ## 📊 Dataset
 - Fonte: Credit Score Classification (Kaggle)
 - O notebook faz download automaticamente via `kagglehub`.
@@ -182,6 +193,18 @@ Projeto integrado de Machine Learning - Quantum Finance (FIAP) usando o dataset 
 - Evitamos uso de identificadores diretos (`SSN`, `Name`, etc.)
 - Split por cliente para simular cenário real
 - Abordagem explicável (regras) para auditoria e governança
+
+---
+
+📦 Dependências
+
+- Python: 3.8+
+- NumPy: cálculos numéricos
+- Pandas: manipulação de dados
+- Scikit-learn: pipelines, modelos, métricas e avaliação
+- Matplotlib: visualizações gráficas
+- Seaborn: visualizações exploratórias (EDA)
+- KaggleHub: download automático do dataset
 
 ---
 
